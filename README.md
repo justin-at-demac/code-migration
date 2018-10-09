@@ -2,7 +2,7 @@
 
 Code Migration Toolkit
 ======================
- 
+
 The Magento Code Migration Toolkit provides scripts that ease the process of converting custom Magento 1.x code to Magento 2 by handling some of the most time-consuming conversion tasks. The toolkit is intended for Magento developers with reasonable expertise in both Magento 1.x and Magento 2.
 
 
@@ -25,7 +25,7 @@ The toolkit can significantly reduce the work involved in the code migration. Ho
 
 ## System Requirements
 
-* PHP >= 5.5
+* PHP >= 7.1
 
 * [Composer](https://getcomposer.org/) dependency management software
 

@@ -73,7 +73,7 @@ class ConstructorHelper
         if (!$this->hasConstructor()) {
             $text = $this->generateConstructor($variables);
             $indexToInsert = 0 - $this->getConstructorIndex();
-            $this->tokens[$indexToInsert][1] .= $text;
+            $this->tokens[$indexToInsert][1] = $this->tokens[$indexToInsert][1] . $text;
         } else {
             $orderedInjectedArguments = $this->addConstructorArguments($variables);
         }
